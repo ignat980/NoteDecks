@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6312C11989822300403FB4 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6312C01989822300403FB4 /* Data.plist */; };
+		CD6D51521980097000B2A3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51511980097000B2A3C1 /* Foundation.framework */; };
+		CD6D51541980097000B2A3C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51531980097000B2A3C1 /* CoreGraphics.framework */; };
+		CD6D51561980097000B2A3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51551980097000B2A3C1 /* UIKit.framework */; };
+		CD6D515C1980097000B2A3C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6D515A1980097000B2A3C1 /* InfoPlist.strings */; };
+		CD6D515E1980097000B2A3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D515D1980097000B2A3C1 /* main.m */; };
+		CD6D51621980097000B2A3C1 /* INDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D51611980097000B2A3C1 /* INDAppDelegate.m */; };
+		CD6D51651980097000B2A3C1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6D51631980097000B2A3C1 /* Main_iPhone.storyboard */; };
+		CD6D51681980097000B2A3C1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6D51661980097000B2A3C1 /* Main_iPad.storyboard */; };
+		CD6D516B1980097000B2A3C1 /* INDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D516A1980097000B2A3C1 /* INDViewController.m */; };
+		CD6D516D1980097000B2A3C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6D516C1980097000B2A3C1 /* Images.xcassets */; };
+		CD6D51741980097000B2A3C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51731980097000B2A3C1 /* XCTest.framework */; };
+		CD6D51751980097000B2A3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51511980097000B2A3C1 /* Foundation.framework */; };
+		CD6D51761980097000B2A3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51551980097000B2A3C1 /* UIKit.framework */; };
+		CD6D517E1980097000B2A3C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6D517C1980097000B2A3C1 /* InfoPlist.strings */; };
+		CD6D51801980097000B2A3C1 /* NoteDecksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D517F1980097000B2A3C1 /* NoteDecksTests.m */; };
+		CD6D518A198009AB00B2A3C1 /* ShelfTile.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D5189198009AB00B2A3C1 /* ShelfTile.png */; };
+		CD84A88D1982AF7D00096A5F /* notecard.png in Resources */ = {isa = PBXBuildFile; fileRef = CD84A88C1982AF7D00096A5F /* notecard.png */; };
+		CD84A88F1982AF8400096A5F /* notecard-top.png in Resources */ = {isa = PBXBuildFile; fileRef = CD84A88E1982AF8400096A5F /* notecard-top.png */; };
+		CDB1AA81198C258100DF7049 /* INDCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB1AA80198C258100DF7049 /* INDCardCell.m */; };
+		CDC053081992806300F91491 /* INDDDeckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC053071992806300F91491 /* INDDDeckCell.m */; };
+		CDFC05141986991300BBFB09 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDFC05131986991300BBFB09 /* Data.plist */; };
+		CDFC05171986E4E600BBFB09 /* INDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFC05161986E4E600BBFB09 /* INDDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6D51771980097000B2A3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6D51461980097000B2A3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6D514D1980097000B2A3C1;
+			remoteInfo = NoteDecks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6312C01989822300403FB4 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = "../../../../../Library/Application Support/iPhone Simulator/7.0/Applications/7B05D3B2-4AD5-4705-B57C-E52853FD1777/Documents/Data.plist"; sourceTree = "<group>"; };
+		CD6D514E1980097000B2A3C1 /* NoteDecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteDecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6D51511980097000B2A3C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD6D51531980097000B2A3C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD6D51551980097000B2A3C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD6D51591980097000B2A3C1 /* NoteDecks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteDecks-Info.plist"; sourceTree = "<group>"; };
+		CD6D515B1980097000B2A3C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6D515D1980097000B2A3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6D515F1980097000B2A3C1 /* NoteDecks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteDecks-Prefix.pch"; sourceTree = "<group>"; };
+		CD6D51601980097000B2A3C1 /* INDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDAppDelegate.h; sourceTree = "<group>"; };
+		CD6D51611980097000B2A3C1 /* INDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDAppDelegate.m; sourceTree = "<group>"; };
+		CD6D51641980097000B2A3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CD6D51671980097000B2A3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CD6D51691980097000B2A3C1 /* INDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INDViewController.h; sourceTree = "<group>"; };
+		CD6D516A1980097000B2A3C1 /* INDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INDViewController.m; sourceTree = "<group>"; };
+		CD6D516C1980097000B2A3C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD6D51721980097000B2A3C1 /* NoteDecksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteDecksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6D51731980097000B2A3C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD6D517B1980097000B2A3C1 /* NoteDecksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteDecksTests-Info.plist"; sourceTree = "<group>"; };
+		CD6D517D1980097000B2A3C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6D517F1980097000B2A3C1 /* NoteDecksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteDecksTests.m; sourceTree = "<group>"; };
+		CD6D5189198009AB00B2A3C1 /* ShelfTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShelfTile.png; sourceTree = "<group>"; };
+		CD84A88C1982AF7D00096A5F /* notecard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notecard.png; sourceTree = "<group>"; };
+		CD84A88E1982AF8400096A5F /* notecard-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notecard-top.png"; sourceTree = "<group>"; };
+		CDB1AA7F198C258100DF7049 /* INDCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDCardCell.h; sourceTree = "<group>"; };
+		CDB1AA80198C258100DF7049 /* INDCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDCardCell.m; sourceTree = "<group>"; };
+		CDC053061992806300F91491 /* INDDDeckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDDDeckCell.h; sourceTree = "<group>"; };
+		CDC053071992806300F91491 /* INDDDeckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDDDeckCell.m; sourceTree = "<group>"; };
+		CDFC05131986991300BBFB09 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		CDFC05151986E4E600BBFB09 /* INDDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDDViewController.h; sourceTree = "<group>"; };
+		CDFC05161986E4E600BBFB09 /* INDDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6D514B1980097000B2A3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D51541980097000B2A3C1 /* CoreGraphics.framework in Frameworks */,
+				CD6D51561980097000B2A3C1 /* UIKit.framework in Frameworks */,
+				CD6D51521980097000B2A3C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6D516F1980097000B2A3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D51741980097000B2A3C1 /* XCTest.framework in Frameworks */,
+				CD6D51761980097000B2A3C1 /* UIKit.framework in Frameworks */,
+				CD6D51751980097000B2A3C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6D51451980097000B2A3C1 = {
+			isa = PBXGroup;
+			children = (
+				CD6D51571980097000B2A3C1 /* NoteDecks */,
+				CD6D51791980097000B2A3C1 /* NoteDecksTests */,
+				CD6D51501980097000B2A3C1 /* Frameworks */,
+				CD6D514F1980097000B2A3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6D514F1980097000B2A3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D514E1980097000B2A3C1 /* NoteDecks.app */,
+				CD6D51721980097000B2A3C1 /* NoteDecksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6D51501980097000B2A3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D51511980097000B2A3C1 /* Foundation.framework */,
+				CD6D51531980097000B2A3C1 /* CoreGraphics.framework */,
+				CD6D51551980097000B2A3C1 /* UIKit.framework */,
+				CD6D51731980097000B2A3C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6D51571980097000B2A3C1 /* NoteDecks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D51601980097000B2A3C1 /* INDAppDelegate.h */,
+				CD6D51611980097000B2A3C1 /* INDAppDelegate.m */,
+				CD6D51631980097000B2A3C1 /* Main_iPhone.storyboard */,
+				CD6D51661980097000B2A3C1 /* Main_iPad.storyboard */,
+				CDFC05151986E4E600BBFB09 /* INDDViewController.h */,
+				CDFC05161986E4E600BBFB09 /* INDDViewController.m */,
+				CD6D51691980097000B2A3C1 /* INDViewController.h */,
+				CD6D516A1980097000B2A3C1 /* INDViewController.m */,
+				CDB1AA7F198C258100DF7049 /* INDCardCell.h */,
+				CDB1AA80198C258100DF7049 /* INDCardCell.m */,
+				CDC053061992806300F91491 /* INDDDeckCell.h */,
+				CDC053071992806300F91491 /* INDDDeckCell.m */,
+				CDFC05131986991300BBFB09 /* Data.plist */,
+				CD6D516C1980097000B2A3C1 /* Images.xcassets */,
+				CD6D51581980097000B2A3C1 /* Supporting Files */,
+			);
+			path = NoteDecks;
+			sourceTree = "<group>";
+		};
+		CD6D51581980097000B2A3C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6312C01989822300403FB4 /* Data.plist */,
+				CD84A88E1982AF8400096A5F /* notecard-top.png */,
+				CD84A88C1982AF7D00096A5F /* notecard.png */,
+				CD6D5189198009AB00B2A3C1 /* ShelfTile.png */,
+				CD6D51591980097000B2A3C1 /* NoteDecks-Info.plist */,
+				CD6D515A1980097000B2A3C1 /* InfoPlist.strings */,
+				CD6D515D1980097000B2A3C1 /* main.m */,
+				CD6D515F1980097000B2A3C1 /* NoteDecks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6D51791980097000B2A3C1 /* NoteDecksTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D517F1980097000B2A3C1 /* NoteDecksTests.m */,
+				CD6D517A1980097000B2A3C1 /* Supporting Files */,
+			);
+			path = NoteDecksTests;
+			sourceTree = "<group>";
+		};
+		CD6D517A1980097000B2A3C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D517B1980097000B2A3C1 /* NoteDecksTests-Info.plist */,
+				CD6D517C1980097000B2A3C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6D514D1980097000B2A3C1 /* NoteDecks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6D51831980097000B2A3C1 /* Build configuration list for PBXNativeTarget "NoteDecks" */;
+			buildPhases = (
+				CD6D514A1980097000B2A3C1 /* Sources */,
+				CD6D514B1980097000B2A3C1 /* Frameworks */,
+				CD6D514C1980097000B2A3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteDecks;
+			productName = NoteDecks;
+			productReference = CD6D514E1980097000B2A3C1 /* NoteDecks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6D51711980097000B2A3C1 /* NoteDecksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6D51861980097000B2A3C1 /* Build configuration list for PBXNativeTarget "NoteDecksTests" */;
+			buildPhases = (
+				CD6D516E1980097000B2A3C1 /* Sources */,
+				CD6D516F1980097000B2A3C1 /* Frameworks */,
+				CD6D51701980097000B2A3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6D51781980097000B2A3C1 /* PBXTargetDependency */,
+			);
+			name = NoteDecksTests;
+			productName = NoteDecksTests;
+			productReference = CD6D51721980097000B2A3C1 /* NoteDecksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6D51461980097000B2A3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IND;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fuzz Productions";
+				TargetAttributes = {
+					CD6D514D1980097000B2A3C1 = {
+						DevelopmentTeam = DPQMA7KBC4;
+					};
+					CD6D51711980097000B2A3C1 = {
+						TestTargetID = CD6D514D1980097000B2A3C1;
+					};
+				};
+			};
+			buildConfigurationList = CD6D51491980097000B2A3C1 /* Build configuration list for PBXProject "NoteDecks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6D51451980097000B2A3C1;
+			productRefGroup = CD6D514F1980097000B2A3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6D514D1980097000B2A3C1 /* NoteDecks */,
+				CD6D51711980097000B2A3C1 /* NoteDecksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6D514C1980097000B2A3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD84A88F1982AF8400096A5F /* notecard-top.png in Resources */,
+				CD6D518A198009AB00B2A3C1 /* ShelfTile.png in Resources */,
+				CD6D51681980097000B2A3C1 /* Main_iPad.storyboard in Resources */,
+				CD6D516D1980097000B2A3C1 /* Images.xcassets in Resources */,
+				CD6D51651980097000B2A3C1 /* Main_iPhone.storyboard in Resources */,
+				CD6D515C1980097000B2A3C1 /* InfoPlist.strings in Resources */,
+				CD6312C11989822300403FB4 /* Data.plist in Resources */,
+				CDFC05141986991300BBFB09 /* Data.plist in Resources */,
+				CD84A88D1982AF7D00096A5F /* notecard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6D51701980097000B2A3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D517E1980097000B2A3C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6D514A1980097000B2A3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D51621980097000B2A3C1 /* INDAppDelegate.m in Sources */,
+				CDFC05171986E4E600BBFB09 /* INDDViewController.m in Sources */,
+				CDB1AA81198C258100DF7049 /* INDCardCell.m in Sources */,
+				CD6D515E1980097000B2A3C1 /* main.m in Sources */,
+				CD6D516B1980097000B2A3C1 /* INDViewController.m in Sources */,
+				CDC053081992806300F91491 /* INDDDeckCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6D516E1980097000B2A3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D51801980097000B2A3C1 /* NoteDecksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6D51781980097000B2A3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6D514D1980097000B2A3C1 /* NoteDecks */;
+			targetProxy = CD6D51771980097000B2A3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6D515A1980097000B2A3C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D515B1980097000B2A3C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD6D51631980097000B2A3C1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D51641980097000B2A3C1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6D51661980097000B2A3C1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D51671980097000B2A3C1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6D517C1980097000B2A3C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D517D1980097000B2A3C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6D51811980097000B2A3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6D51821980097000B2A3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6D51841980097000B2A3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
+				INFOPLIST_FILE = "NoteDecks/NoteDecks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD6D51851980097000B2A3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
+				INFOPLIST_FILE = "NoteDecks/NoteDecks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD6D51871980097000B2A3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoteDecks.app/NoteDecks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NoteDecksTests/NoteDecksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD6D51881980097000B2A3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NoteDecks.app/NoteDecks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
+				INFOPLIST_FILE = "NoteDecksTests/NoteDecksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6D51491980097000B2A3C1 /* Build configuration list for PBXProject "NoteDecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6D51811980097000B2A3C1 /* Debug */,
+				CD6D51821980097000B2A3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6D51831980097000B2A3C1 /* Build configuration list for PBXNativeTarget "NoteDecks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6D51841980097000B2A3C1 /* Debug */,
+				CD6D51851980097000B2A3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6D51861980097000B2A3C1 /* Build configuration list for PBXNativeTarget "NoteDecksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6D51871980097000B2A3C1 /* Debug */,
+				CD6D51881980097000B2A3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6D51461980097000B2A3C1 /* Project object */;
+}
