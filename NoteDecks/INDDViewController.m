@@ -61,7 +61,7 @@
                                           format:&format
                                           errorDescription:&errorDesc];
     if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+        NSLog(@"Error reading plist: %@, format: %lu", errorDesc, format);
     }
     self.decks = [NSMutableArray arrayWithArray:[temp objectForKey:@"Decks"]];
     [self.collectionView reloadData];
@@ -119,7 +119,7 @@
     if (indexPath.item >= self.decks.count) {
         cell.cardAmount.text = @"0";
     } else {
-        cell.cardAmount.text = [NSString stringWithFormat:@"%i",((NSMutableArray *) self.decks[indexPath.item]).count];
+        cell.cardAmount.text = [NSString stringWithFormat:@"%lu",(unsigned long)((NSMutableArray *) self.decks[indexPath.item]).count];
     }
     return cell;
 }
@@ -146,13 +146,13 @@
     // Is way easier to do... I think.
     // self.tempDeckIndex = @([indexPath indexAtPosition:1]); ?
     if (indexPath.item >= self.decks.count) {
-        for (int i = self.decks.count; i <= indexPath.item; i++) {
+        for (NSUInteger i = self.decks.count; i <= indexPath.item; i++) {
             [self.decks addObject:[@[]mutableCopy]];
         }
     }
     //if (self.decks[indexPath.item] == [@[]mutableCopy]) {
     if (((NSMutableArray*)self.decks[indexPath.item]).count == 0) {
-        self.decks[indexPath.item] =[@[[NSString stringWithFormat:@"Card 1 from %i", indexPath.item]]mutableCopy];
+        self.decks[indexPath.item] =[@[[NSString stringWithFormat:@"Card 1 from %li", (long)indexPath.item]]mutableCopy];
     }
     [self saveCards];
     INDViewController* indViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"CardViewController"];

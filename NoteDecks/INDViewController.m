@@ -40,6 +40,7 @@
 
 -(void)viewWillDisappear:(BOOL)animated
 {
+    [super viewWillDisappear:animated];
     [self saveCards];
 }
 
@@ -218,10 +219,10 @@
 //Switched to a CollectionView based layout
 ///Updates "current" variables and shows the text in the text view from a card
 ///@param card Which card to focus to
-- (void) showCard:(int)card
+- (void) showCard:(NSInteger)card
 {
     self.currentCard = @(card);
-    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%i / %i in deck %i",[self whichNumber],self.cards.count, self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
+    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%li / %lu in deck %li",(long)[self whichNumber],(unsigned long)self.cards.count, self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
     //[self.textView setText:self.cards[card]];
     [self.collectionView reloadData];
 }
@@ -246,7 +247,7 @@
                                           format:&format
                                           errorDescription:&errorDesc];
     if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %d", errorDesc, format);
+        NSLog(@"Error reading plist: %@, format: %lu", errorDesc, format);
     }
     //self.tempDecks = [NSMutableArray arrayWithArray:[temp objectForKey:@"Decks"]];
     self.tempDecks = [temp objectForKey:@"Decks"];
@@ -294,12 +295,12 @@
     
     NSUInteger count = cards.count;
     for (NSUInteger i = 0; i < count; ++i) {
-        [cards exchangeObjectAtIndex:i withObjectAtIndex:i + arc4random_uniform(count - i)];
+        [cards exchangeObjectAtIndex:i withObjectAtIndex:i + arc4random_uniform((int)(count - i))];
     }
     return cards;
 }
 
--(int)whichNumber
+-(NSInteger)whichNumber
 {
     if (self.cards.count == 0)
     {
@@ -336,8 +337,7 @@
     cell.cellTextView.text = self.cards[indexPath.item];
     cell.backgroundColor = [UIColor clearColor];
     self.currentCard = @(indexPath.item);
-    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%i / %i in deck %i",self.currentCard.integerValue + 1
-                                      ,self.cards.count, self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
+    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%li / %lu in deck %li",self.currentCard.integerValue + 1,(unsigned long)self.cards.count, self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
     return cell;
 }
 
