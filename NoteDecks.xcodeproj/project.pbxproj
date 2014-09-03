@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD6312C11989822300403FB4 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6312C01989822300403FB4 /* Data.plist */; };
 		CD6D51521980097000B2A3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51511980097000B2A3C1 /* Foundation.framework */; };
 		CD6D51541980097000B2A3C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51531980097000B2A3C1 /* CoreGraphics.framework */; };
 		CD6D51561980097000B2A3C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D51551980097000B2A3C1 /* UIKit.framework */; };
@@ -43,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD6312C01989822300403FB4 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = "../../../../../Library/Application Support/iPhone Simulator/7.0/Applications/7B05D3B2-4AD5-4705-B57C-E52853FD1777/Documents/Data.plist"; sourceTree = "<group>"; };
 		CD6D514E1980097000B2A3C1 /* NoteDecks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteDecks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6D51511980097000B2A3C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD6D51531980097000B2A3C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,7 +153,6 @@
 		CD6D51581980097000B2A3C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD6312C01989822300403FB4 /* Data.plist */,
 				CD84A88E1982AF8400096A5F /* notecard-top.png */,
 				CD84A88C1982AF7D00096A5F /* notecard.png */,
 				CD6D5189198009AB00B2A3C1 /* ShelfTile.png */,
@@ -271,7 +268,6 @@
 				CD6D516D1980097000B2A3C1 /* Images.xcassets in Resources */,
 				CD6D51651980097000B2A3C1 /* Main_iPhone.storyboard in Resources */,
 				CD6D515C1980097000B2A3C1 /* InfoPlist.strings in Resources */,
-				CD6312C11989822300403FB4 /* Data.plist in Resources */,
 				CDFC05141986991300BBFB09 /* Data.plist in Resources */,
 				CD84A88D1982AF7D00096A5F /* notecard.png in Resources */,
 			);
