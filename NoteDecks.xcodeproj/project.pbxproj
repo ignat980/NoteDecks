@@ -438,7 +438,7 @@
 				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
 				INFOPLIST_FILE = "NoteDecks/NoteDecks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0C39C1EC-BD34-4807-BB98-D6866807F80A";
+				PROVISIONING_PROFILE = "8c7465fc-beb3-45ea-ab64-2084338963d2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,7 +454,7 @@
 				GCC_PREFIX_HEADER = "NoteDecks/NoteDecks-Prefix.pch";
 				INFOPLIST_FILE = "NoteDecks/NoteDecks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0C39C1EC-BD34-4807-BB98-D6866807F80A";
+				PROVISIONING_PROFILE = "8c7465fc-beb3-45ea-ab64-2084338963d2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

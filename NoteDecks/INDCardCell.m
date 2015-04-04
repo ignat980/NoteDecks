@@ -22,7 +22,7 @@
         UIImageView *topCardColor = [[UIImageView alloc] initWithFrame:CGRectMake(0,-10,300, 36)];
         topCardColor.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"notecard-top.png"]];
         [self.cellTextView insertSubview:topCardColor atIndex:0];
-        self.cellTextView.font = [UIFont fontWithName:@"Helvetica"  size:20.1];
+        self.cellTextView.font = [UIFont fontWithName:@"Helvetica"  size:20.85];
         [self.contentView addSubview:self.cellTextView];
     }
     return self;

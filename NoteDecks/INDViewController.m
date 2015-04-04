@@ -222,7 +222,9 @@
 - (void) showCard:(NSInteger)card
 {
     self.currentCard = @(card);
-    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%li / %lu in deck %li",(long)[self whichNumber],(unsigned long)self.cards.count, self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
+    [self.currentCardButton setTitle:[NSString stringWithFormat:@"%li / %lu in deck %li",
+                                      (long)[self whichNumber],(unsigned long)self.cards.count,
+                                      self.deckIndex.integerValue + 1] forState:UIControlStateNormal];
     //[self.textView setText:self.cards[card]];
     [self.collectionView reloadData];
 }

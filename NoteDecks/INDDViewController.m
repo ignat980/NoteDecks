@@ -61,7 +61,7 @@
                                           format:&format
                                           errorDescription:&errorDesc];
     if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %lu", errorDesc, format);
+        NSLog(@"Error reading plist: %@, format: %u", errorDesc, format);
     }
     self.decks = [NSMutableArray arrayWithArray:[temp objectForKey:@"Decks"]];
     [self.collectionView reloadData];
@@ -132,6 +132,7 @@
 #pragma mark ಠ_ಠ
 - (BOOL) array:(NSArray*)array1 isEqualToArray:(NSArray*)array2
 {
+    
     if (array1.count != array2.count) return false;
     for (int i = 0; i < array1.count; ++i) {
         if (![array1[i] isEqual:array2[i]])
