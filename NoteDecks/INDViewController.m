@@ -18,9 +18,9 @@
 @property(nonatomic, strong) NSNumber *tempCurrentCard; //Needs to move around Cards, and for creating a Card
 @property(nonatomic, strong) NSNumber *tempDeckIndex; //Needs to move around Decks, and for creating a Deck
 @end
-
+#pragma mark -
 @implementation INDViewController
-
+#pragma mark View loading/unloading
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -44,6 +44,7 @@
     [self saveCards];
 }
 
+#pragma mark Text view
 -(void)textViewDidChange:(UITextView *)textView
 {
     for (int i = 0 ; i < self.collectionView.visibleCells.count; i++) {
@@ -63,8 +64,6 @@
     [self.view endEditing:YES];
     [self saveCards];
 }
-#pragma mark 
-
 
 #pragma mark -
 #pragma mark ⚠view
@@ -78,11 +77,11 @@
                                                    otherButtonTitles:@"Add a card",@"Go to a card",@"Go to a deck",@"Randomize Deck",nil];
     [actionMenu showInView:self.view];
 }
-
+#pragma mark Main menu conifg
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (actionSheet.destructiveButtonIndex == -1) {
-        buttonIndex = buttonIndex + 1;
+        buttonIndex++;
     }
     if (buttonIndex == actionSheet.destructiveButtonIndex) {
         if (self.cards.count == 0) {
@@ -214,8 +213,8 @@
     }
 }
 
-
-#pragma mark ಠ_ಠ
+#pragma mark -
+#pragma mark Card Control ಠ_ಠ
 //Switched to a CollectionView based layout
 ///Updates "current" variables and shows the text in the text view from a card
 ///@param card Which card to focus to
@@ -265,7 +264,7 @@
     }
 }
 
-#pragma mark ¯\_(ツ)_/¯
+#pragma mark  save whenever ¯\_(ツ)_/¯
 //Save to the plist  :)
 
 -(void) saveCards

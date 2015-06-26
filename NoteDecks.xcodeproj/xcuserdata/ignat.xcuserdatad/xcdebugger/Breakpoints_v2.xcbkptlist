@@ -52,59 +52,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NoteDecks/INDDViewController.m"
-            timestampString = "431377297.973761"
+            timestampString = "456797968.341418"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
             landmarkName = "-unwindToMain:"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NoteDecks/INDDViewController.m"
-            timestampString = "431377309.798314"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
-            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[INDDViewController collectionView:didSelectItemAtIndexPath:]"
-                  moduleName = "NoteDecks"
-                  urlString = "file:///Users/ignat/Documents/Programming/Objective%20&apos;C&apos;oding/NoteDecks/NoteDecks/INDDViewController.m"
-                  timestampString = "431384448.650913"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "162"
-                  endingLineNumber = "162"
-                  offsetFromSymbolStart = "1485">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__62-[INDDViewController collectionView:didSelectItemAtIndexPath:]_block_invoke"
-                  moduleName = "NoteDecks"
-                  urlString = "file:///Users/ignat/Documents/Programming/Objective%20&apos;C&apos;oding/NoteDecks/NoteDecks/INDDViewController.m"
-                  timestampString = "431384448.651256"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "162"
-                  endingLineNumber = "162"
-                  offsetFromSymbolStart = "15">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

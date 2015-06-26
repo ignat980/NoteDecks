@@ -5,6 +5,7 @@
 //  Created by Ignat Remizov on 8/1/14.
 //  Copyright (c) 2014 Fuzz Productions. All rights reserved.
 //
+//  Cards cell code
 
 #import <UIKit/UIKit.h>
 

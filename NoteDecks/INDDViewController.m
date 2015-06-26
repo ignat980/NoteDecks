@@ -61,7 +61,7 @@
                                           format:&format
                                           errorDescription:&errorDesc];
     if (!temp) {
-        NSLog(@"Error reading plist: %@, format: %u", errorDesc, format);
+        NSLog(@"Error reading plist: %@, format: %lu", errorDesc, (unsigned long)format);
     }
     self.decks = [NSMutableArray arrayWithArray:[temp objectForKey:@"Decks"]];
     [self.collectionView reloadData];
@@ -151,21 +151,20 @@
             [self.decks addObject:[@[]mutableCopy]];
         }
     }
-    //if (self.decks[indexPath.item] == [@[]mutableCopy]) {
     if (((NSMutableArray*)self.decks[indexPath.item]).count == 0) {
         self.decks[indexPath.item] =[@[[NSString stringWithFormat:@"Card 1 from %li", (long)indexPath.item]]mutableCopy];
     }
     [self saveCards];
     INDViewController* indViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:@"CardViewController"];
-    self.navigationController.modalPresentationStyle = UIModalPresentationCurrentContext;
-    self.modalPresentationStyle = UIModalPresentationCurrentContext;
-    [indViewController setDeckIndex:@(indexPath.item)]; //Here it is
-    [self presentViewController:indViewController animated:YES completion:^{
+    indViewController.modalPresentationStyle = UIModalPresentationOverCurrentContext; //Set presentation style on PRESENTED controller :)
+    [indViewController setDeckIndex:@(indexPath.item)];
+    
+    [self presentViewController:indViewController animated:YES completion:nil];/*^{
         indViewController.view.transform = CGAffineTransformMakeTranslation(0, self.view.frame.size.height + 10);
         [UIView animateWithDuration:1.0 animations:^{
             indViewController.view.transform = CGAffineTransformIdentity;
         }];
-    }];
+    }];*/
     [self.collectionView reloadData];
 }
 
